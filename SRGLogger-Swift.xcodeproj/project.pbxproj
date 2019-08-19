@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D6DB16230B3C7E00285D2E /* SRGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5F8871E7FEA570030C896 /* SRGLogger.swift */; };
+		08D6DB1B230B3C7E00285D2E /* SRGLogger_Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F444819210F08BC009FDB70 /* SRGLogger_Swift.bundle */; };
+		08D6DB25230B3D3A00285D2E /* SRGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D6DB23230B3D2A00285D2E /* SRGLogger.framework */; };
 		6F02BB4922EADEC3003699E8 /* SRGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F02BB4822EADEC3003699E8 /* SRGLogger.framework */; };
 		6F34F78C22EADFA600DC36C5 /* SRGLogger.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F02BB4822EADEC3003699E8 /* SRGLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6F444825210F09B5009FDB70 /* SRGLogger_Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F444819210F08BC009FDB70 /* SRGLogger_Swift.bundle */; };
@@ -22,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		08D6DB14230B3C7E00285D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA09D2D1D9E6F8900EDCA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F444818210F08BC009FDB70;
+			remoteInfo = "SRGLogger_Swift-bundle";
+		};
 		6F444826210F09DD009FDB70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6FA09D2D1D9E6F8900EDCA64 /* Project object */;
@@ -62,6 +72,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08D6DB21230B3C7E00285D2E /* SRGLogger_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SRGLogger_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D6DB23230B3D2A00285D2E /* SRGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SRGLogger.framework; path = Carthage/Build/watchOS/SRGLogger.framework; sourceTree = "<group>"; };
 		6F02BB4822EADEC3003699E8 /* SRGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SRGLogger.framework; path = Carthage/Build/iOS/SRGLogger.framework; sourceTree = "<group>"; };
 		6F4447FC210EF419009FDB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F444819210F08BC009FDB70 /* SRGLogger_Swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRGLogger_Swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +89,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		08D6DB17230B3C7E00285D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D6DB25230B3D3A00285D2E /* SRGLogger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F444816210F08BC009FDB70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,8 +142,9 @@
 		6F02BB4722EADEC3003699E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6F465F9023068EF5000653E7 /* SRGLogger.framework */,
 				6F02BB4822EADEC3003699E8 /* SRGLogger.framework */,
+				08D6DB23230B3D2A00285D2E /* SRGLogger.framework */,
+				6F465F9023068EF5000653E7 /* SRGLogger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +167,7 @@
 				6F444819210F08BC009FDB70 /* SRGLogger_Swift.bundle */,
 				6F465F7E23068D01000653E7 /* SRGLogger_Swift.framework */,
 				6F465F8D23068D86000653E7 /* SRGLogger_Swift-tvOS-tests.xctest */,
+				08D6DB21230B3C7E00285D2E /* SRGLogger_Swift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +218,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		08D6DB19230B3C7E00285D2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F465F7623068D01000653E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +242,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		08D6DB12230B3C7E00285D2E /* SRGLogger_Swift-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D6DB1C230B3C7E00285D2E /* Build configuration list for PBXNativeTarget "SRGLogger_Swift-watchOS" */;
+			buildPhases = (
+				08D6DB15230B3C7E00285D2E /* Sources */,
+				08D6DB17230B3C7E00285D2E /* Frameworks */,
+				08D6DB19230B3C7E00285D2E /* Headers */,
+				08D6DB1A230B3C7E00285D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D6DB13230B3C7E00285D2E /* PBXTargetDependency */,
+			);
+			name = "SRGLogger_Swift-watchOS";
+			productName = SRGLogger_Swift;
+			productReference = 08D6DB21230B3C7E00285D2E /* SRGLogger_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		6F444818210F08BC009FDB70 /* SRGLogger_Swift-resources */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F44481C210F08BD009FDB70 /* Build configuration list for PBXNativeTarget "SRGLogger_Swift-resources" */;
@@ -347,12 +395,21 @@
 				6FA09D651D9E85BC00EDCA64 /* SRGLogger_Swift-iOS-tests */,
 				6F465F6F23068D01000653E7 /* SRGLogger_Swift-tvOS */,
 				6F465F8023068D86000653E7 /* SRGLogger_Swift-tvOS-tests */,
+				08D6DB12230B3C7E00285D2E /* SRGLogger_Swift-watchOS */,
 				6F444818210F08BC009FDB70 /* SRGLogger_Swift-resources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		08D6DB1A230B3C7E00285D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D6DB1B230B3C7E00285D2E /* SRGLogger_Swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F444817210F08BC009FDB70 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,6 +450,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		08D6DB15230B3C7E00285D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D6DB16230B3C7E00285D2E /* SRGLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F444815210F08BC009FDB70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,6 +500,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		08D6DB13230B3C7E00285D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F444818210F08BC009FDB70 /* SRGLogger_Swift-resources */;
+			targetProxy = 08D6DB14230B3C7E00285D2E /* PBXContainerItemProxy */;
+		};
 		6F444827210F09DD009FDB70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6F444818210F08BC009FDB70 /* SRGLogger_Swift-resources */;
@@ -448,6 +518,120 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08D6DB1D230B3C7E00285D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGLogger-Swift";
+				PRODUCT_NAME = SRGLogger_Swift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		08D6DB1E230B3C7E00285D2E /* Debug-static */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS/Static",
+				);
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGLogger-Swift";
+				PRODUCT_NAME = SRGLogger_Swift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Debug-static";
+		};
+		08D6DB1F230B3C7E00285D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGLogger-Swift";
+				PRODUCT_NAME = SRGLogger_Swift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		08D6DB20230B3C7E00285D2E /* Release-static */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS/Static",
+				);
+				INFOPLIST_FILE = Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.srgssr.SRGLogger-Swift";
+				PRODUCT_NAME = SRGLogger_Swift;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Release-static";
+		};
 		6F4447EF210EEFAA009FDB70 /* Debug-static */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -509,6 +693,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Debug-static";
 		};
@@ -524,7 +709,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 				);
 				INFOPLIST_FILE = Framework/Info.plist;
@@ -608,6 +792,7 @@
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = "Release-static";
 		};
@@ -623,7 +808,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
 				);
 				INFOPLIST_FILE = Framework/Info.plist;
@@ -953,6 +1137,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
 		};
@@ -1012,6 +1197,7 @@
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
 		};
@@ -1091,6 +1277,17 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		08D6DB1C230B3C7E00285D2E /* Build configuration list for PBXNativeTarget "SRGLogger_Swift-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D6DB1D230B3C7E00285D2E /* Debug */,
+				08D6DB1E230B3C7E00285D2E /* Debug-static */,
+				08D6DB1F230B3C7E00285D2E /* Release */,
+				08D6DB20230B3C7E00285D2E /* Release-static */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6F44481C210F08BD009FDB70 /* Build configuration list for PBXNativeTarget "SRGLogger_Swift-resources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

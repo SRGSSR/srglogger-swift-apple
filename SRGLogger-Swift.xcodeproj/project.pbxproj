@@ -10,7 +10,6 @@
 		6F02BB4922EADEC3003699E8 /* SRGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F02BB4822EADEC3003699E8 /* SRGLogger.framework */; };
 		6F444825210F09B5009FDB70 /* SRGLogger_Swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F444819210F08BC009FDB70 /* SRGLogger_Swift.bundle */; };
 		6F5216CF23150FAD00456080 /* LoggerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEBEC8C1E7FDC00003F760F /* LoggerTestCase.swift */; };
-		6F5216D0231512A100456080 /* SRGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F02BB4822EADEC3003699E8 /* SRGLogger.framework */; };
 		6FD5F8881E7FEA570030C896 /* SRGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD5F8871E7FEA570030C896 /* SRGLogger.swift */; };
 		6FD5F88A1E7FFE750030C896 /* SRGLogger_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEBEC941E7FE7C8003F760F /* SRGLogger_Swift.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F5216D0231512A100456080 /* SRGLogger.framework in Frameworks */,
 				6FD5F88A1E7FFE750030C896 /* SRGLogger_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F465F6F23068D01000653E7"
+               BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
                BuildableName = "SRGLogger_Swift.framework"
-               BlueprintName = "SRGLogger_Swift-tvOS"
+               BlueprintName = "SRGLogger-Swift"
                ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F465F8023068D86000653E7"
-               BuildableName = "SRGLogger_Swift-tvOS-tests.xctest"
-               BlueprintName = "SRGLogger_Swift-tvOS-tests"
+               BlueprintIdentifier = "6FA09D651D9E85BC00EDCA64"
+               BuildableName = "SRGLogger_Swift_tests.xctest"
+               BlueprintName = "SRGLogger-Swift-tests"
                ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F465F6F23068D01000653E7"
+            BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
             BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift-tvOS"
+            BlueprintName = "SRGLogger-Swift"
             ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,9 +66,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F465F6F23068D01000653E7"
+            BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
             BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift-tvOS"
+            BlueprintName = "SRGLogger-Swift"
             ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,9 +84,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F465F6F23068D01000653E7"
+            BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
             BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift-tvOS"
+            BlueprintName = "SRGLogger-Swift"
             ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

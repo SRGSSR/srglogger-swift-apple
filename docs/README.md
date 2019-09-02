@@ -1,6 +1,6 @@
 [![SRG Logger logo](README-images/logo.png)](https://github.com/SRGSSR/srglogger-swift-ios)
 
-[![GitHub releases](https://img.shields.io/github/v/release/SRGSSR/srglogger-swift-ios)](https://github.com/SRGSSR/srglogger-swift-ios/releases) [![platform](https://img.shields.io/badge/platfom-ios%20%7C%20tvos%20%7C%20watchos-blue)](https://github.com/SRGSSR/srglogger-swift-ios) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![GitHub license](https://img.shields.io/github/license/SRGSSR/srglogger-ios)](https://github.com/SRGSSR/srglogger-swift-ios/blob/master/LICENSE) 
+[![GitHub releases](https://img.shields.io/github/v/release/SRGSSR/srglogger-swift-ios)](https://github.com/SRGSSR/srglogger-swift-ios/releases) [![platform](https://img.shields.io/badge/platfom-ios%20%7C%20tvos%20%7C%20watchos-blue)](https://github.com/SRGSSR/srglogger-swift-ios) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![GitHub license](https://img.shields.io/github/license/SRGSSR/srglogger-swift-ios)](https://github.com/SRGSSR/srglogger-swift-ios/blob/master/LICENSE) 
 
 ## About
 

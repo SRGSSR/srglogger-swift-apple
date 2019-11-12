@@ -73,6 +73,7 @@ end
 def srg_scan(device)
   scan(
     device: device,
+    scheme: xcode_library_scheme,
     output_types: '',
     output_style: FastlaneCore::Env.truthy?('TRAVIS') ? 'raw' : 'standard',
     fail_build: false,
@@ -99,6 +100,16 @@ def check_xcresult_count(devices)
   return unless Dir['*.xcresult'].count != devices.count
 
   UI.user_error!('Whoops, unexpected xcresult file count.')
+end
+
+# Returns the library scheme
+def xcode_library_scheme
+  scheme = nil
+  Dir.chdir('..') do
+    scheme = sh 'xcodebuild -list | grep "Schemes:" -A 1'
+  end
+  scheme ['Schemes:'] = ''
+  scheme.gsub(/\s+/, '').chomp
 end
 
 # More information about multiple platforms in fastlane: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Platforms.md

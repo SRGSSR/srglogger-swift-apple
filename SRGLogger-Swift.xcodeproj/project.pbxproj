@@ -15,6 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0877C67A23A66EAB00C7E6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA09D2D1D9E6F8900EDCA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FEBEC931E7FE7C8003F760F;
+			remoteInfo = "SRGLogger-Swift";
+		};
 		6F444826210F09DD009FDB70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6FA09D2D1D9E6F8900EDCA64 /* Project object */;
@@ -181,6 +188,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0877C67B23A66EAB00C7E6A0 /* PBXTargetDependency */,
 			);
 			name = "SRGLogger-Swift-tests";
 			productName = "SRGLogger-tests";
@@ -304,6 +312,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0877C67B23A66EAB00C7E6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FEBEC931E7FE7C8003F760F /* SRGLogger-Swift */;
+			targetProxy = 0877C67A23A66EAB00C7E6A0 /* PBXContainerItemProxy */;
+		};
 		6F444827210F09DD009FDB70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6F444818210F08BC009FDB70 /* SRGLogger-Swift-resources */;

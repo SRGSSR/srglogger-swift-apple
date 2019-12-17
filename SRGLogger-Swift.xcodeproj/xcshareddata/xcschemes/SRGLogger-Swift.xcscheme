@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
                BuildableName = "SRGLogger_Swift.framework"
-               BlueprintName = "SRGLogger_Swift"
+               BlueprintName = "SRGLogger-Swift"
                ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
+            BuildableName = "SRGLogger_Swift.framework"
+            BlueprintName = "SRGLogger-Swift"
+            ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -35,23 +44,12 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6FA09D651D9E85BC00EDCA64"
-               BuildableName = "SRGLogger-tests.xctest"
-               BlueprintName = "SRGLogger-tests"
+               BuildableName = "SRGLogger_Swift_tests.xctest"
+               BlueprintName = "SRGLogger-Swift-tests"
                ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
-            BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift"
-            ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -68,12 +66,10 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
             BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift"
+            BlueprintName = "SRGLogger-Swift"
             ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -86,7 +82,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6FEBEC931E7FE7C8003F760F"
             BuildableName = "SRGLogger_Swift.framework"
-            BlueprintName = "SRGLogger_Swift"
+            BlueprintName = "SRGLogger-Swift"
             ReferencedContainer = "container:SRGLogger-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
